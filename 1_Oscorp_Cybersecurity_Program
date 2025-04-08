@@ -1,0 +1,60 @@
+# Oscorp Cybersecurity Program
+
+## Executive Summary
+Oscorp Industries, a high-tech R&D company, offered a Senior Cybersecurity Consultant role with the directive to build a comprehensive cybersecurity program from the ground up. This project includes a full analysis of their current cybersecurity posture, alignment to the NIST Cybersecurity Framework (CSF), and a 3-year strategic roadmap to uplift maturity and resilience.
+
+## Objectives
+- Assess current cybersecurity controls across key domains.
+- Map gaps against the NIST CSF functions: Identify, Protect, Detect, Respond, Recover.
+- Deliver a prioritized 3-year roadmap with strategic and technical initiatives.
+
+## Tools & Frameworks
+- NIST Cybersecurity Framework (CSF)
+- Microsoft Excel (Gap matrix + roadmap)
+- Google Docs (Reporting)
+- MITRE ATT&CK (Threat-informed defense reference)
+- Microsoft Office 365, Azure (Oscorp environment context)
+
+## Key Activities
+1. Reviewed Oscorp’s current cybersecurity state across 15 domains.
+2. Mapped controls to NIST CSF and rated maturity (from spreadsheet).
+3. Identified critical gaps in risk management, detection, policy, and IAM.
+4. Developed a 3-year roadmap with phased improvements by CSF function.
+5. Created executive-level documentation and recommendations.
+
+## Findings Summary
+- No formal cybersecurity governance or strategy in place.
+- Shared admin credentials, no MFA, no privileged access management.
+- Qualys scanner exists but no vulnerability program or patch SLA.
+- No SIEM or detection/response platform implemented.
+- One generic IT policy; no formal infosec, DLP, or data classification policies.
+- No third-party or technology risk management process.
+
+## 3-Year Roadmap (Sample Highlights)
+**Year 1 – Stabilize**
+- Establish security governance (roles, policies, responsibilities)
+- Implement MFA and PAM
+- Launch vulnerability management program with Qualys
+- Begin employee security awareness training
+
+**Year 2 – Formalize**
+- Deploy SIEM (e.g., Splunk or Sentinel) and develop detection rules
+- Implement third-party risk assessment process
+- Create incident response playbooks and tabletop exercises
+- Launch data classification and DLP initiative
+
+**Year 3 – Optimize**
+- Conduct full GRC audit against NIST CSF
+- Mature threat hunting capabilities
+- Align security with business continuity and risk quantification
+- Automate security operations (SOAR tools, integrations)
+
+## Documentation
+- [Oscorp_Current_State.pdf](./Oscorp_Current_State.pdf)
+- [NIST_CSF_Assessment.xlsx](./NIST_CSF_Assessment.xlsx)
+- Screenshots and roadmap visuals available in `/assets` folder (optional)
+
+## Outcomes
+- Delivered a 3-year strategic plan to executive leadership.
+- Mapped 100% of findings to CSF domains for clear governance alignment.
+- Identified quick wins and long-term controls across the entire org.
